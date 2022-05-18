@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
+body {
+  background-color: #2a2b2a;
+}
+
+.teste {
+  float: right;
+  margin-top: 50px;
+  margin-right: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.nomebarra {
+  font-size: 28pt;
+  list-style-type: none;
+  text-decoration: none;
+  color: #E54900;
+  font-family: 'Lexend', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nomebarra :hover {
+  color: white;
+  background-color: #E54900;
+}
+
+.referrers {
+  letter-spacing: .3em;
+}
+
+.ola {
+  padding-left: 130px;
+  padding-top: 50px;
+  font-size: 48pt;
+  color: white;
+  font-family: 'Lexend', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .1em;
+  display: -ms-grid;
+  display: grid;
+}
+
+.ola span {
+  color: #E54900;
+}
+
+.textocontato {
+  padding-top: 150px;
+  text-align: center;
+  font-family: 'Lexend', sans-serif;
+  color: #E54900;
+  letter-spacing: .3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 32pt;
+}
+
+.imagens {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 150px;
+}
+
+.icon-linkedin {
+  width: 200px;
+  height: 200px;
+}
+
+.icon-github {
+  width: 200px;
+  height: 200px;
+}
+
+.icon-wpp {
+  width: 200px;
+  height: 200px;
+}
+
+.texto-email {
+  padding-top: 50px;
+  text-align: center;
+  font-family: 'Lexend', sans-serif;
+  color: #E54900;
+  letter-spacing: .3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 32pt;
+}
+
+.texto-email span {
+  color: white;
+}
+
+.texto-email :hover {
+  color: #E54900;
+}
+/*# sourceMappingURL=contatos.css.map */
